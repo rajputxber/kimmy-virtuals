@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimmy Daoshion - Virtual Influencer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Kimmy Daoshion</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#wardrobe">Wardrobe</a></li>
+                    <li><a href="#ai-chat">AI Chat</a></li>
+                    <li><a href="#governance">Governance</a></li>
+                    <li><a href="#wallet">Wallet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Kimmy Daoshion</h2>
+            <p>Your AI-powered virtual influencer for fashion and NFTs.</p>
+            <a href="#wardrobe" class="cta-button">Explore Wardrobe</a>
+        </div>
+    </section>
+
+    <section id="wardrobe" class="wardrobe">
+        <div class="container">
+            <h2>Customize Kimmy's Outfits</h2>
+            <div class="wardrobe-carousel">
+                <div class="outfit-preview">
+                    <img src="outfit1.jpg" alt="Outfit 1">
+                    <p>Classic Chic</p>
+                </div>
+                <div class="outfit-preview">
+                    <img src="outfit2.jpg" alt="Outfit 2">
+                    <p>Modern Glam</p>
+                </div>
+                <div class="outfit-preview">
+                    <img src="outfit3.jpg" alt="Outfit 3">
+                    <p>Street Style</p>
+                </div>
+            </div>
+            <a href="#" class="cta-button">Mint as NFT</a>
+        </div>
+    </section>
+
+    <section id="ai-chat" class="ai-chat">
+        <div class="container">
+            <h2>Chat with Kimmy</h2>
+            <div class="chat-box">
+                <div class="messages">
+                    <div class="message user">What should I wear for a party?</div>
+                    <div class="message ai">Try a modern glam outfit! Check out my wardrobe for ideas.</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Ask Kimmy anything...">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="governance" class="governance">
+        <div class="container">
+            <h2>Participate in Governance</h2>
+            <div class="proposal-list">
+                <div class="proposal">
+                    <h3>Proposal #1: New Outfit Theme</h3>
+                    <p>Vote to decide on the next outfit theme for Kimmy.</p>
+                    <button>Vote Now</button>
+                </div>
+                <div class="proposal">
+                    <h3>Proposal #2: Brand Collaboration</h3>
+                    <p>Should Kimmy collaborate with XYZ Fashion?</p>
+                    <button>Vote Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wallet" class="wallet">
+        <div class="container">
+            <h2>Manage Your Wallet</h2>
+            <div class="wallet-overview">
+                <p><strong>KIM Tokens:</strong> 1,250</p>
+                <p><strong>wKIM Tokens:</strong> 800</p>
+                <a href="#" class="cta-button">Bridge Tokens</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Kimmy Daoshion. All Rights Reserved.</p>
+            <nav class="footer-nav">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f9f9f9;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        .hero {
+            background: #ececec;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .cta-button {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .wardrobe {
+            background: #fff;
+            padding: 50px 20px;
+        }
+        .wardrobe-carousel {
+            display: flex;
+            gap: 20px;
+        }
+        .outfit-preview img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .ai-chat {
+            background: #f1f1f1;
+            padding: 50px 20px;
+        }
+        .chat-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .message {
+            margin-bottom: 10px;
+        }
+        .message.user {
+            color: #007bff;
+        }
+        .message.ai {
+            color: #333;
+        }
+        .governance {
+            background: #fff;
+            padding: 50px 20px;
+        }
+        .wallet {
+            background: #ececec;
+            padding: 50px 20px;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</body>
+</html>
